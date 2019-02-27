@@ -1,4 +1,4 @@
-package com.gaw.algorithms;
+package com.gaw.algorithms.sort.compare;
 
 /**
  * @author gaopo

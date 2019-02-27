@@ -1,4 +1,6 @@
-package com.gaw.algorithms;
+package com.gaw.algorithms.sort;
+
+import com.gaw.algorithms.sort.compare.HeapSort;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -16,7 +18,8 @@ public class MainTest {
         System.out.println(Arrays.toString(source));
         //QuickSort.quickSort(source.length - 1, 0, source);
         //MergeSort.mergeSort(source);
-        InsertSort.insertSort(source);
+        //InsertSort.insertSort(source);
+        HeapSort.execute(source);
         System.out.println("耗时：" + (System.currentTimeMillis() - time) + ":" + Arrays.toString(source));
     }
 
